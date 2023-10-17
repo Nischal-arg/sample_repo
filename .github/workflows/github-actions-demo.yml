@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Setup interactive ssh session
-      uses: Warpbuilds/gha-debug@v1
+    - name: ActionDebugger By Warpbuild
+      uses: WarpBuilds/gha-debug@v1.2.0-rc6.5
       with:
         detached: true
